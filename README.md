@@ -15,3 +15,8 @@ npm run watch
 ```
 
 Sonrası sizin keyfinize kalmış :)
+
+### demo
+
+Derste yaptığımız örneğin son halini görmek isterseniz
+[https://tailwind-ornek.netlify.app](https://tailwind-ornek.netlify.app)
