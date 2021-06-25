@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i tailwind.css -o src/style.css --minify",
+    "watch": "npx tailwindcss -i tailwind.css -o src/style.css -w --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

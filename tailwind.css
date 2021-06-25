@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply flex items-center h-10 rounded px-3 text-sm text-prototurk font-medium hover:bg-gray-100 transition-colors
+    }
+    .nav-link.active {
+        @apply bg-prototurk text-white
+    }
+}
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
