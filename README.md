@@ -2,10 +2,16 @@
 
 Prototürk'ün youtube kanalında Tailwind CSS ile ilgili 3 bölümlük hazırladığım seride yaptığımız örneğin kaynak kodları
 
-Çalıştırmak için terminale şu komutu yazın
+Üçüncü bölümde `lodash` gerekli olduğu için önce npm paketlerini kurun
+
+```
+npm install
+```
+
+Sonrada css çıktısını almak ve değişiklikleri dinlemek için şunu çalıştırın
 
 ```
 npm run watch
 ```
 
-buda gerekli `style.css` dosyasını oluşturacaktır. Sonrası sizin keyfinize kalmış :)
+Sonrası sizin keyfinize kalmış :)
